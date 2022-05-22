@@ -1,6 +1,6 @@
 package com.bridgelabz;
 
-public class Maximum {
+public class Maximum  {
     public static String getmaximum(String a, String b, String c) {
         String max = a;
         if (b.compareTo(max) > 0 && b.compareTo(c) > 0)
