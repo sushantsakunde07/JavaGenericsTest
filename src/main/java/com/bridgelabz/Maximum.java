@@ -1,9 +1,8 @@
 package com.bridgelabz;
 
-
 public class Maximum {
-    public static Float getmaximum(Float a, Float b, Float c) {
-        Float max = a;
+    public static String getmaximum(String a, String b, String c) {
+        String max = a;
         if (b.compareTo(max) > 0 && b.compareTo(c) > 0)
             max = b;
         else if (c.compareTo(max) > 0)
