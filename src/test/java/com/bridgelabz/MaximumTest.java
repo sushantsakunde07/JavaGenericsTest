@@ -1,6 +1,5 @@
 package com.bridgelabz;
 
-
 import org.junit.Test;
 import org.junit.Assert;
 
@@ -21,5 +20,10 @@ public class MaximumTest {
     public void stringMax() {
         String actualValue = Maximum.testMaximum("apple","peach","banana");
         Assert.assertEquals("peach",actualValue);
+    }
+    @Test
+    public void givenStringValues_WhenGetMaximum_ShouldReturnCorrectValue() {
+        String actualResult = Maximum.testMaximum("Apple", "Peach", "Banana", "Mango","Strawberry");
+        Assert.assertEquals("Strawberry", actualResult);
     }
 }
