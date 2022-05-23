@@ -24,6 +24,6 @@ public class MaximumTest {
     @Test
     public void givenStringValues_WhenGetMaximum_ShouldReturnCorrectValue() {
         String actualResult = Maximum.testMaximum("Apple", "Peach", "Banana", "Mango","Strawberry");
-        Assert.assertEquals("Strawberry", actualResult);
+        Assert.assertEquals("Strawberry ", actualResult);
     }
 }
